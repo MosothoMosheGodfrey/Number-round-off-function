@@ -8,10 +8,10 @@ def round_(values,cut):
         Round3=round(values,3)
         Round2 =round(Round3,2)
         Round1 =round(Round2,1)
-        if int(str(Round1).split('.')[-1] )>=5:
-            Round_Final = int(str(Round1).split('.')[0] ) +1
+        if int(str(Round1).split('.')[-1]) >= 5:
+            Round_Final = int(str(Round1).split('.')[0]) +1
         else:
-            Round_Final = int(str(Round1).split('.')[0] ) 
+            Round_Final = int(str(Round1).split('.')[0]) 
     return Round_Final
 
 values = 86.49134793661929

@@ -1,3 +1,5 @@
+# This python round() function takes two numeric arguments, a float-digit to be rounded off and the desired decimals_number 
+# and returns the number rounded to the desired decimals_number.
 
 def round_(values,cut):
     from numpy import round
